@@ -1,0 +1,89 @@
+
+@media only screen and (min-width: 1000px) {
+    .carousel-caption h1  {
+        background-color: rgb(0, 0, 0,0.2);
+        color:#FE5C36;
+        font-size:3em;
+        margin-bottom:10em;
+        padding:1em;
+        
+        text-shadow:
+  3px 3px 0 wheat,
+  -1px -1px 0 wheat,  
+   1px -1px 0 wheat,
+   -1px 1px 0 wheat,
+    1px 1px 0 wheat;
+    }
+    .carousel-caption h2  {
+        background-color: rgb(0, 0, 0,0.2);
+        color:whitesmoke;
+        font-size:2.5em;
+        
+        padding:.7em;
+        font-family: "Lucida Handwriting",cursive;
+ 
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .carousel-caption h1  {
+        background-color: rgb(0, 0, 0,0.2);
+        color:#FE5C36;
+        font-size:1.5rem;
+        margin-bottom:2rem;
+        padding:1em;
+        
+        text-shadow:
+  3px 3px 0 wheat,
+  -1px -1px 0 wheat,  
+   1px -1px 0 wheat,
+   -1px 1px 0 wheat,
+    1px 1px 0 wheat;
+    }
+
+}
+@media only screen and (min-width: 420px) and (max-width:1000px) {
+    .carousel-caption h1 {
+        font-size:2.5rem;
+        margin-bottom:2rem;
+        padding:1em;
+       
+        font-weight:bold;
+        animation-delay: 2s;
+       
+  color: #FE5C36;
+  text-shadow:
+  3px 3px 0 wheat,
+  -1px -1px 0 wheat,  
+   1px -1px 0 wheat,
+   -1px 1px 0 wheat,
+    1px 1px 0 wheat;
+   
+  
+    }
+}
+/*Jumbotron*/
+.show-case{
+    margin:0px 0px 0px 0px;
+background: -moz-linear-gradient(45deg, rgba(53,106,160,1) 6%, rgba(53,106,160,0.92) 36%, rgba(53,106,160,0.77) 91%); /* FF3.6-15 */
+background: -webkit-linear-gradient(45deg, rgba(53,106,160,1) 6%,rgba(53,106,160,0.92) 36%,rgba(53,106,160,0.77) 91%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(45deg, rgba(53,106,160,1) 6%,rgba(53,106,160,0.92) 36%,rgba(53,106,160,0.77) 91%);
+height:600px;
+}
+.garage {
+    width:150px;
+    height:150px;
+    margin-top:10px;
+    margin-left:20px;
+    animation-delay: 2s
+}
+.show-case h2 {
+margin-top: 1em;
+margin-right:1em;
+font-family: "Lucida Console", Monospace;
+text-transform: uppercase;
+animation-delay: 3s
+}
+.height {
+    height:500px;
+}
