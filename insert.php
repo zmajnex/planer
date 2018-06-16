@@ -21,6 +21,6 @@ catch(PDOException $e)
 
 
 
-header('Location: http://localhost/auto%20servis/public/calendar.php');
+header('Location: http://localhost/planer/calendar.php');
 
 ?>
